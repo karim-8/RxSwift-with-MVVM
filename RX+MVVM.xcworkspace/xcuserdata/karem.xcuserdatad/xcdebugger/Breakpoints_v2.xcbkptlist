@@ -87,133 +87,6 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "FAA21DF8-379C-4982-B26B-9C317E651346"
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "RX+MVVM/ViewModel/ItemsViewModel.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "42"
-            endingLineNumber = "42"
-            landmarkName = "requestData()"
-            landmarkType = "7">
-            <Locations>
-               <Location
-                  uuid = "FAA21DF8-379C-4982-B26B-9C317E651346 - 62e29e649a4b95bc"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "closure #1 (RX_MVVM.APIManger.ApiResult) -&gt; () in RX_MVVM.ItemsViewModel.requestData() -&gt; ()"
-                  moduleName = "RX+MVVM"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/karem/Documents/RX+MVVM/RX+MVVM/ViewModel/ItemsViewModel.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "42"
-                  endingLineNumber = "42"
-                  offsetFromSymbolStart = "254">
-               </Location>
-               <Location
-                  uuid = "FAA21DF8-379C-4982-B26B-9C317E651346 - 62e29e649a4b95bc"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "closure #1 (RX_MVVM.APIManger.ApiResult) -&gt; () in RX_MVVM.ItemsViewModel.requestData() -&gt; ()"
-                  moduleName = "RX+MVVM"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/karem/Documents/RX+MVVM/RX+MVVM/ViewModel/ItemsViewModel.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "42"
-                  endingLineNumber = "42"
-                  offsetFromSymbolStart = "293">
-               </Location>
-               <Location
-                  uuid = "FAA21DF8-379C-4982-B26B-9C317E651346 - 62e29e649a4b95bc"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "closure #1 (RX_MVVM.APIManger.ApiResult) -&gt; () in RX_MVVM.ItemsViewModel.requestData() -&gt; ()"
-                  moduleName = "RX+MVVM"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/karem/Documents/RX+MVVM/RX+MVVM/ViewModel/ItemsViewModel.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "42"
-                  endingLineNumber = "42"
-                  offsetFromSymbolStart = "818">
-               </Location>
-            </Locations>
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "F7EEA87A-E9D3-46A4-B58E-329AD2E6B7EE"
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "RX+MVVM/ViewModel/ItemsViewModel.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "46"
-            endingLineNumber = "46"
-            landmarkName = "requestData()"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "17D8BD21-E3EA-4B23-BC06-BB8283CBEBA9"
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "RX+MVVM/ViewModel/ItemsViewModel.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "56"
-            endingLineNumber = "56"
-            landmarkName = "requestData()"
-            landmarkType = "7">
-            <Locations>
-               <Location
-                  uuid = "17D8BD21-E3EA-4B23-BC06-BB8283CBEBA9 - 62e29e649a4b95bc"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "closure #1 (RX_MVVM.APIManger.ApiResult) -&gt; () in RX_MVVM.ItemsViewModel.requestData() -&gt; ()"
-                  moduleName = "RX+MVVM"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/karem/Documents/RX+MVVM/RX+MVVM/ViewModel/ItemsViewModel.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "56"
-                  endingLineNumber = "56"
-                  offsetFromSymbolStart = "870">
-               </Location>
-               <Location
-                  uuid = "17D8BD21-E3EA-4B23-BC06-BB8283CBEBA9 - 62e29e649a4b95bc"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "closure #1 (RX_MVVM.APIManger.ApiResult) -&gt; () in RX_MVVM.ItemsViewModel.requestData() -&gt; ()"
-                  moduleName = "RX+MVVM"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/karem/Documents/RX+MVVM/RX+MVVM/ViewModel/ItemsViewModel.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "56"
-                  endingLineNumber = "56"
-                  offsetFromSymbolStart = "1120">
-               </Location>
-            </Locations>
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
             uuid = "69B5FBBA-442A-46E8-A75D-A76DB65036F4"
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
@@ -221,88 +94,8 @@
             filePath = "RX+MVVM/View/ViewController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "37"
-            endingLineNumber = "37"
-            landmarkName = "setupBinding()"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "E70166B2-52A2-4B6C-8089-A6DC8B4B6CC1"
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "RX+MVVM/View/ViewController.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "54"
-            endingLineNumber = "54"
-            landmarkName = "setupBinding()"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "AE545C95-FFF7-403D-8244-80321F73F879"
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "RX+MVVM/View/ViewController.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "42"
-            endingLineNumber = "42"
-            landmarkName = "setupBinding()"
-            landmarkType = "7">
-            <Locations>
-               <Location
-                  uuid = "AE545C95-FFF7-403D-8244-80321F73F879 - 60b6a675d4d370eb"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "RX_MVVM.ViewController.setupBinding() -&gt; ()"
-                  moduleName = "RX+MVVM"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/karem/Documents/RX+MVVM/RX+MVVM/View/ViewController.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "42"
-                  endingLineNumber = "42"
-                  offsetFromSymbolStart = "272">
-               </Location>
-               <Location
-                  uuid = "AE545C95-FFF7-403D-8244-80321F73F879 - b3d0bf8003b7a3c9"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "closure #1 (RX_MVVM.ItemsViewModel.HomeError) -&gt; () in RX_MVVM.ViewController.setupBinding() -&gt; ()"
-                  moduleName = "RX+MVVM"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/karem/Documents/RX+MVVM/RX+MVVM/View/ViewController.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "44"
-                  endingLineNumber = "44"
-                  offsetFromSymbolStart = "144">
-               </Location>
-            </Locations>
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "74E085D1-31C1-4298-86D8-178A62221BA9"
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "RX+MVVM/View/ViewController.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "60"
-            endingLineNumber = "60"
+            startingLineNumber = "38"
+            endingLineNumber = "38"
             landmarkName = "setupBinding()"
             landmarkType = "7">
          </BreakpointContent>
@@ -320,6 +113,54 @@
             startingLineNumber = "54"
             endingLineNumber = "54"
             landmarkName = "requestData(url:method:parameters:completion:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "DE9FB8C0-7BAF-4C09-A354-34A98CA62D25"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "RX+MVVM/Repository/ItemsRepository.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "56"
+            endingLineNumber = "56"
+            landmarkName = "requestData()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "E7BF3720-B9D0-4289-92A3-44CE4248EED4"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "RX+MVVM/View/ViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "74"
+            endingLineNumber = "74"
+            landmarkName = "setupBinding()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "D184F647-3CD6-451D-80CE-29F63586F66D"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "RX+MVVM/View/ViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "68"
+            endingLineNumber = "68"
+            landmarkName = "setupBinding()"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>

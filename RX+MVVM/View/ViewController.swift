@@ -19,7 +19,8 @@ class ViewController: UIViewController {
     
     //MARK:- Variables
     let bag = DisposeBag()
-    let viewModel = ItemsViewModel()
+    let viewModel = ItemViewModel()
+    let repo = ItemsRepository()
     
     //subject to receive data from vm after binding
     private var  itemsSubjects = PublishSubject<[DataModel]>()
@@ -28,34 +29,40 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         
         //api cll using vm instance in the intilize of the class
-        viewModel.requestData()
+        viewModel.fetchData()
         //setup binding
         setupBinding()
     }
     
     func setupBinding() {
      
-        //Observe over errors
-        viewModel
-        .error
-        .observeOn(MainScheduler.instance)
-        .subscribe(onNext:{ error in
+ 
+        //Adding driver instead of Observ on
+
+        repo.error.asDriver(onErrorJustReturn: .internetError("Error"))
+            .drive(onNext: { error in
             switch error {
-            case .internetError(let message):
+                case .internetError(let message):
                 print(message)
-            case .serverMessage(let message):
+                case .serverMessage(let message):
                 print(message)
-            }
+                }
             }).disposed(by: bag)
         
         
-        //Observe over Binding data
-        viewModel
-        .dataSubject
-        .observeOn(MainScheduler.instance)
-        .bind(to: self.itemsSubjects)
-        .disposed(by: bag)
         
+        viewModel.vmItemsSubject
+            .asDriver(onErrorJustReturn: [DataModel].init())
+            .drive(onNext: { elements in
+                print("=====\(elements)")
+                self.itemsSubjects.onNext(elements)
+            }).disposed(by: bag)
+    
+        
+        
+        
+        
+
         
         //Set data in the table view cell
         itemsSubjects.bind(to: itemsTableView.rx
@@ -67,3 +74,24 @@ class ViewController: UIViewController {
     }
 }
 
+       //Observe over errors
+//        repo
+//        .error
+//        .observeOn(MainScheduler.instance)
+//        .subscribe(onNext:{ error in
+//            switch error {
+//            case .internetError(let message):
+//                print(message)
+//            case .serverMessage(let message):
+//                print(message)
+//            }
+//            }).disposed(by: bag)
+
+
+//        //Observe over Binding data
+//        viewModel
+//        .vmItemsSubject
+//        .observeOn(MainScheduler.instance)
+//        .bind(to: self.itemsSubjects)
+//        .disposed(by: bag)
+        

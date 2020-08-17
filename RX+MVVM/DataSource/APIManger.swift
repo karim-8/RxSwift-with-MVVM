@@ -71,7 +71,7 @@ class APIManger {
                 do {
                     let responseJson = try JSON(data: data)
                     print("responseCode : \(responseCode.statusCode)")
-                    print("responseJSON : \(responseJson)")
+                 //   print("responseJSON : \(responseJson)")
                     switch responseCode.statusCode {
                         
                     case 200:
